@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box, .box_2 {
+    height: 50px;
+    background-image: url("./media/basketball.png");
+    background-position: left;
+    background-size: 50px 50px;
+    background-repeat: no-repeat; 
+    background-color: lightblue;
+    background-attachment: fixed;
+    text-align: right;
+    padding: 10px 20px 0 0;
+}
+
+.box_2 {
+    background-image: url("./media/tennis.png");
+    background-color: darkgreen;
+    color: white;
+}
